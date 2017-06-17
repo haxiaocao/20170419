@@ -9,7 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{F09F24E6-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9E4F9AE7-84EE-44BE-9030-FAA50B469339}"
 	ProjectSection(SolutionItems) = preProject
+		CommondLibrary.txt = CommondLibrary.txt
+		Nuget command.txt = Nuget command.txt
 		todo.txt = todo.txt
+		Write quick code.txt = Write quick code.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D3AC9AAA-482C-418A-905C-C2BA3F21B478}"
