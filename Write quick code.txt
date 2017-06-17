@@ -1,0 +1,10 @@
+
+use these code firest in the code , and press Tab key to get the code by the VS:
+ctor 
+prop
+equals 
+foreach 
+try 
+for
+
+

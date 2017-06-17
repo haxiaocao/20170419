@@ -21,9 +21,16 @@ namespace Test
             //PrintType(1,2);
             //PrintType<int>(1,2);
 
+           
 
-
-            Console.ReadLine();
+            
+           Console.ReadLine();
         }
+
+        
+       
+
+        
+       
     }   
 }

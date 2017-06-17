@@ -1,0 +1,9 @@
+1 nuget 打包
+  nuget spec ->  Package.nuspec 文件
+  修改 package.nuspec 文件的配置 (file, dll)
+  nuget pack package.nuspec
+  nuget pack package.nuspec
+
+2 (un)install-package **packageID [-project projectName] [-version 1.3.5]
+  get-package paakckageId  [-updates]
+  update-package [-reinstall] ***  [-project yourprojectName] [-version 1.5](cls)

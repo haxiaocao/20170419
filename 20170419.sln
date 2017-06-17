@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleProjects", "SamplePro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windowsTest", "windowsTest\windowsTest.csproj", "{06ECBD03-DF2F-4C91-A571-DD1F99BA481B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetDemo", "NugetDemo\NugetDemo.csproj", "{F87C799B-B36F-4B8D-8901-5507F1FEF435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{06ECBD03-DF2F-4C91-A571-DD1F99BA481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06ECBD03-DF2F-4C91-A571-DD1F99BA481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06ECBD03-DF2F-4C91-A571-DD1F99BA481B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
