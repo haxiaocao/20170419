@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windowsTest", "windowsTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetDemo", "NugetDemo\NugetDemo.csproj", "{F87C799B-B36F-4B8D-8901-5507F1FEF435}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ES", "ES", "{DCCD0695-9D53-4077-BBD4-4FBF6807D14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Sample.Model", "ES.Sample.Modle\ES.Sample.Model.csproj", "{09B49311-AD32-4815-9EC5-19DCC9573CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Sample.ClientManager", "ES.Sample.ClientManager\ES.Sample.ClientManager.csproj", "{D1747711-9186-406E-A6A7-A4D26242384F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,8 +63,20 @@ Global
 		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F87C799B-B36F-4B8D-8901-5507F1FEF435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B49311-AD32-4815-9EC5-19DCC9573CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B49311-AD32-4815-9EC5-19DCC9573CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B49311-AD32-4815-9EC5-19DCC9573CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B49311-AD32-4815-9EC5-19DCC9573CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1747711-9186-406E-A6A7-A4D26242384F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1747711-9186-406E-A6A7-A4D26242384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1747711-9186-406E-A6A7-A4D26242384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1747711-9186-406E-A6A7-A4D26242384F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09B49311-AD32-4815-9EC5-19DCC9573CF2} = {DCCD0695-9D53-4077-BBD4-4FBF6807D14F}
+		{D1747711-9186-406E-A6A7-A4D26242384F} = {DCCD0695-9D53-4077-BBD4-4FBF6807D14F}
 	EndGlobalSection
 EndGlobal
