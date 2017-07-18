@@ -11,7 +11,8 @@ namespace X509Encyption
 {
     public class X509Encryptioner
     {
-        public static string SignPrivate(string hashal = "SHA1")
+        //http://blog.csdn.net/besley/article/details/7918787
+        public static string Signature(string hashal = "SHA1")
         {
             string docFile = @"G:\MyCode\CSharp\20170418\X509Encyption\testSendFile.txt";  
             byte[] hashBytes;  
@@ -92,6 +93,7 @@ namespace X509Encyption
             Console.WriteLine("{0}Certificate to XML String: {1}{0}", Environment.NewLine, x509.PublicKey.Key.ToXmlString(false));
         }
 
+        //https://stackoverflow.com/questions/7444586/how-can-i-sign-a-file-using-rsa-and-sha256-with-net
         public static void UseRSA256()
         {
             byte[] certificate = File.ReadAllBytes(@"G:\MyCode\CSharp\20170418\X509Encyption\public_privatekey.pfx");

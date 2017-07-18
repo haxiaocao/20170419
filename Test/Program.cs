@@ -43,9 +43,9 @@ namespace Test
 
         private static void Signature()
         {
-            string signedstr = X509Encyption.X509Encryptioner.SignPrivate("SHA256");
+            string signedstr = X509Encyption.X509Encryptioner.Signature();
             Console.WriteLine(signedstr + Environment.NewLine);
-            X509Encyption.X509Encryptioner.VerifySignature(signedstr, "SHA256");
+            X509Encyption.X509Encryptioner.VerifySignature(signedstr);
         }
 
         private static void UseGeneric()
