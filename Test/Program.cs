@@ -15,17 +15,46 @@ namespace Test
         }
         static void Main(string[] args)
         {
-            //PrintType(1, new object());
-            //PrintType<object>(1,new object());
+           // UseGeneric();
 
-            //PrintType(1,2);
-            //PrintType<int>(1,2);
-            
-            //good commit in the vs project Ui.
-           
+            //Signature();
+
+            //PrintX509();
+
+            VerifyWith256();
 
             
            Console.ReadLine();
+        }
+
+        private static void VerifyWith256()
+        {
+            X509Encyption.X509Encryptioner.UseRSA256();
+        }
+
+        private static void PrintX509()
+        {
+            string pubKeyFile = @"G:\MyCode\CSharp\20170418\X509Encyption\publickey.cer";
+            string pwd = "";
+            //string pubKeyFile = @"G:\MyCode\CSharp\20170418\X509Encyption\public_privatekey.pfx";
+            //string pwd = "abc123";
+            X509Encyption.X509Encryptioner.GetInfoFromX509(pubKeyFile, pwd);
+        }
+
+        private static void Signature()
+        {
+            string signedstr = X509Encyption.X509Encryptioner.SignPrivate("SHA256");
+            Console.WriteLine(signedstr + Environment.NewLine);
+            X509Encyption.X509Encryptioner.VerifySignature(signedstr, "SHA256");
+        }
+
+        private static void UseGeneric()
+        {
+            PrintType(1, new object());
+            PrintType<object>(1, new object());
+
+            PrintType(1, 2);
+            PrintType<int>(1, 2);
         }
 
         

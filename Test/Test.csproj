@@ -139,6 +139,12 @@
     <Content Include="Models\Readme.txt" />
     <Content Include="Readme.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\X509Encyption\X509Encyption.csproj">
+      <Project>{86998ea9-1f31-4a49-9c40-6e51a79f6de9}</Project>
+      <Name>X509Encyption</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

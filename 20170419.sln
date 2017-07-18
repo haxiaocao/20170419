@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Sample.Model", "ES.Sampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES.Sample.ClientManager", "ES.Sample.ClientManager\ES.Sample.ClientManager.csproj", "{D1747711-9186-406E-A6A7-A4D26242384F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X509Encyption", "X509Encyption\X509Encyption.csproj", "{86998EA9-1F31-4A49-9C40-6E51A79F6DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{D1747711-9186-406E-A6A7-A4D26242384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1747711-9186-406E-A6A7-A4D26242384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1747711-9186-406E-A6A7-A4D26242384F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86998EA9-1F31-4A49-9C40-6E51A79F6DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86998EA9-1F31-4A49-9C40-6E51A79F6DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86998EA9-1F31-4A49-9C40-6E51A79F6DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86998EA9-1F31-4A49-9C40-6E51A79F6DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
