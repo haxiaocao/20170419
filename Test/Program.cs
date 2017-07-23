@@ -21,15 +21,31 @@ namespace Test
 
             //PrintX509();
 
-            VerifyWith256();
+            //VerifyWith256();
+
+            //PKCS7Verify();
+
+            string s = X509Encyption.X509Encryptioner.GetDecodeBase64String("I love this morning.", "SHA1");
+            Console.WriteLine(s);
+            s = X509Encyption.X509Encryptioner.GetDecodeBase64String("I love this morning.", "SHA256");
+            Console.WriteLine(s);
 
             
            Console.ReadLine();
         }
 
+        private static void PKCS7Verify()
+        {
+            string txt = "abcdefg";
+            string s = X509Encyption.X509Encryptioner.Sign("abcdefg");
+            bool ret = X509Encyption.X509Encryptioner.Verify(s, txt);
+            Console.WriteLine("verify result:" + ret);
+        }
+
         private static void VerifyWith256()
         {
-            X509Encyption.X509Encryptioner.UseRSA256();
+           // X509Encyption.X509Encryptioner.UseRSA256();
+            //X509Encyption.X509Encryptioner.UserRS1256Version2()
         }
 
         private static void PrintX509()
